@@ -1,1 +1,2 @@
-/// User entity representing a registered person in the system (Servant or Student) at the business logic level.
+// PURPOSE:
+// Domain entity representing a User (ID, Email, Role). Core business object, independent of data layers.

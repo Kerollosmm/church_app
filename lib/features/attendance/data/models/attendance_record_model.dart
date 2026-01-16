@@ -1,1 +1,2 @@
-/// Model for individual attendance records, handling serialization and mapping to the domain entity.
+// PURPOSE:
+// Data model for Attendance Record (Service Date, Present Servants, Synced Status).

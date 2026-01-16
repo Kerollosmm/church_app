@@ -1,1 +1,2 @@
-/// Remote data source responsible for communicating with Firebase Authentication services.
+// PURPOSE:
+// Handles authentication interactions with Firebase Auth (SignIn, SignOut, GetCurrentUser).

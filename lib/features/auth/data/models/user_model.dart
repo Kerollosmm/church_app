@@ -1,1 +1,2 @@
-/// Data model for the User, including logic for serialization to and from JSON/Firestore formats.
+// PURPOSE:
+// Data model for User, extending UserEntity. Handles JSON serialization and Hive TypeAdapter implementation.

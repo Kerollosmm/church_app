@@ -1,1 +1,2 @@
-/// Servant entity representing a church worker with uid, name, role, department, and barcode_id.
+// PURPOSE:
+// Domain entity for a Servant (Name, Role, Department, BarcodeID).

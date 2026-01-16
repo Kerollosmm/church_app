@@ -1,1 +1,2 @@
-/// Entity representing an individual student's attendance record within a specific session.
+// PURPOSE:
+// Domain entity for Attendance Record.

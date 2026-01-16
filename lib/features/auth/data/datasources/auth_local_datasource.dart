@@ -1,1 +1,2 @@
-/// Local data source responsible for caching user authentication data using Hive boxes.
+// PURPOSE:
+// Handles caching of the authenticated user session and tokens using Hive.

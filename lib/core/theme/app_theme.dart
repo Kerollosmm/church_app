@@ -1,1 +1,2 @@
-/// Main theme configuration, integrating color schemes and typography into ThemeData.
+// PURPOSE:
+// Defines the Application Theme (Colors, Typography, Shapes) for light and dark modes.

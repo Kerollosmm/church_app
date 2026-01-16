@@ -1,1 +1,2 @@
-/// Interface defining the essential authentication operations: signing in, signing out, and fetching the current user session.
+// PURPOSE:
+// Domain interface for Authentication. Defines contract for Login, Logout, and checking Auth status.

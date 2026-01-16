@@ -1,1 +1,2 @@
-/// BLoC managing the authentication state (authenticated, unauthenticated, loading) and user session.
+// PURPOSE:
+// BLoC managing Authentication State (Authenticated, Unauthenticated, Loading). Handles Login and Logout events.

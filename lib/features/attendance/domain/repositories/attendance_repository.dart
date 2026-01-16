@@ -1,1 +1,2 @@
-/// Repository interface defining attendance taking and history retrieval logic.
+// PURPOSE:
+// Domain interface for Attendance management (Mark, Get, Sync).

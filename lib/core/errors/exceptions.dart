@@ -1,1 +1,2 @@
-/// Custom exception classes that represent various error scenarios in the data layer 
+// PURPOSE:
+// Defines custom Exception classes (ServerException, CacheException) thrown by the Data Layer when errors occur.

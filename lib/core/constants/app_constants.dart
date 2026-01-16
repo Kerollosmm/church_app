@@ -1,1 +1,2 @@
-/// App-wide constants such as API keys, base URLs, and global configuration values.
+// PURPOSE:
+// Stores app-wide constants such as Firebase collection names, Hive box names, and storage keys to avoid magic strings.

@@ -1,1 +1,2 @@
-/// Input validation logic for forms (e.g., email validation, password strength).
+// PURPOSE:
+// Contains common input validation logic (e.g., Email, Password, Required fields).

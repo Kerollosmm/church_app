@@ -1,1 +1,2 @@
-/// Background sync manager: monitors connectivity, uploads pending Hive records to Firestore when online.
+// PURPOSE:
+// Orchestrates Offline-First synchronization. Listens for connectivity, pushes pending Hive records to Firestore, and updates sync status.

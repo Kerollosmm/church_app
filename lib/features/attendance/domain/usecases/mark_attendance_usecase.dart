@@ -1,1 +1,2 @@
-/// Use case for marking attendance: saves to Hive immediately, flags for sync.
+// PURPOSE:
+// Use Case for marking attendance.

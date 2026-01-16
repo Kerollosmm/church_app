@@ -1,1 +1,2 @@
-/// BLoC managing the list of students, including searching, filtering, and CRUD operation states.
+// PURPOSE:
+// BLoC for managing Servants list state. Handles loading and adding servants.

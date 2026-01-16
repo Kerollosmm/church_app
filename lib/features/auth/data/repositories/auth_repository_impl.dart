@@ -1,1 +1,2 @@
-/// Concrete implementation of the AuthRepository that manages the flow between remote and local authentication data sources.
+// PURPOSE:
+// Implementation of AuthRepository. Coordinates between RemoteDataSource (Firebase) and LocalDataSource (Hive) to manage user session.
