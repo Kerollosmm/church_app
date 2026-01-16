@@ -43,3 +43,12 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Project Documentation and Metadata
+ARCHITECTURE_FIX_PLAN.md
+KNOWLEDGE_BASE.md
+PROJECT_SPECIFICATIONS.md
+PROJECT_STRUCTURE.md
+Gemini.md
+lib/features/notifications/domain/entities/admin_alert.dart
+

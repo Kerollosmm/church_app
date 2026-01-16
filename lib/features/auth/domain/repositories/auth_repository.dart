@@ -1,2 +1,6 @@
-// PURPOSE:
-// Domain interface for Authentication. Defines contract for Login, Logout, and checking Auth status.
+/// Repository contract (domain layer).
+///
+/// Purpose:
+/// - Defines what the feature can do without depending on Firebase/Hive/SQLite
+/// - The UI layer will depend on this abstraction
+abstract class AuthRepository {}
