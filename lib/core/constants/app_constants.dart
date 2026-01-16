@@ -1,2 +1,2 @@
-// PURPOSE:
-// Stores app-wide constants such as Firebase collection names, Hive box names, and storage keys to avoid magic strings.
+// TODO: Implement Application Constants
+class AppConstants {}

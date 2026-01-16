@@ -1,2 +1,4 @@
-// PURPOSE:
-// Defines custom Exception classes (ServerException, CacheException) thrown by the Data Layer when errors occur.
+// TODO: Implement Custom Exceptions
+class ServerException implements Exception {}
+
+class CacheException implements Exception {}
