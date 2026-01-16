@@ -1,4 +1,5 @@
-// TODO: Mobile App Entry Point
-void main() {
-  // bootstrap(Flavor.servant);
-}
+/// Entry point for the Servant Mobile App.
+///
+/// Responsibilities:
+/// - Initialize the servant-specific bootstrap process.
+/// - Run the ServantApp widget.

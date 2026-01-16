@@ -1,4 +1,5 @@
-// TODO: Admin Web Portal Entry Point
-void main() {
-  // bootstrap(Flavor.admin);
-}
+/// Entry point for the Admin Web Portal.
+///
+/// Responsibilities:
+/// - Initialize the admin-specific bootstrap process.
+/// - Run the AdminApp widget.

@@ -1,3 +1,6 @@
-/// Dependency Injection configuration
-/// This file sets up all the dependencies for the app
-
+/// Main entry point for Dependency Injection setup.
+///
+/// Responsibilities:
+/// - Configure GetIt instance.
+/// - Call individual module registration methods (Firebase, Hive, Sync).
+/// - Allow environment-based configuration (e.g., dev vs prod).
