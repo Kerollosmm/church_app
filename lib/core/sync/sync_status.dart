@@ -1,8 +1,11 @@
 /// Enum representing the synchronization status of an entity.
 ///
+/// This enum is used throughout the app to indicate whether data
+/// has been saved locally, is syncing, or has been synced to the cloud.
+///
 /// Values:
-/// - SavedToDevice: Locally saved, pending sync.
-/// - Syncing: Currently uploading to cloud.
-/// - SyncedToCloud: Successfully synced.
-/// - SyncFailedActionRequired: Failed to sync, user intervention needed.
-/// - ConflictReviewRequired: Conflict detected, flagged for admin review.
+/// - savedToDevice: Data saved locally, pending cloud sync.
+/// - syncing: Currently uploading to Firebase.
+/// - syncedToCloud: Successfully synced to Firebase.
+/// - syncFailed: Failed to sync, user action required.
+/// - conflictDetected: Conflict detected, admin review required.

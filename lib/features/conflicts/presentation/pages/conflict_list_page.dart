@@ -1,6 +1,8 @@
-/// Admin Page: List of unresolved conflicts.
+/// Page displaying the list of pending conflict cases.
 ///
 /// Responsibilities:
-/// - Show a list of "Flagged for Review" items.
-/// - Filter by valid date or entity type.
-/// - Navigate to Resolution Page.
+/// - Show all unresolved conflicts in a scrollable list.
+/// - Display conflict summary (student, session, time since detection).
+/// - Navigate to conflict resolution page on tap.
+/// - Pull-to-refresh functionality.
+/// - Empty state when no conflicts pending.

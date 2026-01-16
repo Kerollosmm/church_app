@@ -1,6 +1,7 @@
-/// Core engine for handling data synchronization.
+/// Abstract interface for the sync engine.
 ///
 /// Responsibilities:
-/// - Orchard orchestrates the sync process.
-/// - Monitors network connectivity.
-/// - Triggers accessing the SyncQueue.
+/// - Process sync queue in background.
+/// - Handle connectivity changes.
+/// - Apply retry/backoff policy for failures.
+/// - Emit sync status updates.

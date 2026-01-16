@@ -1,5 +1,8 @@
-/// Admin Page: Resolve a specific conflict.
+/// Page for resolving a specific conflict case.
 ///
 /// Responsibilities:
-/// - Side-by-side comparison of conflicting versions.
-/// - UI controls to Accept Version A, Accept Version B, or Manually Merge.
+/// - Display side-by-side comparison of conflicting versions.
+/// - Show full details: status, submitter name, submission time, device info.
+/// - Provide "Choose This Version" action buttons.
+/// - Confirm resolution before applying.
+/// - Navigate back to list after successful resolution.
