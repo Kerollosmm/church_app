@@ -1,0 +1,1 @@
+/// Custom exception classes that represent various error scenarios in the data layer 

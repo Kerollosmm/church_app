@@ -1,0 +1,1 @@
+/// Configuration for Firestore composite indexes required for complex queries (e.g., filtering attendance by date and group).
