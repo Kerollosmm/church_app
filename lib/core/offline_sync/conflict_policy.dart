@@ -3,6 +3,4 @@
 /// Purpose:
 /// - Enforce the "No Automatic Overwrite" rule.
 /// - Structure conflict cases for administrative review.
-class ConflictPolicy {
-  // TODO: Implement isConflict verification logic
-}
+

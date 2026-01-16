@@ -3,6 +3,3 @@
 /// Purpose:
 /// - Abstract the persistent storage of commanded operations.
 /// - Ensure FIFO (First-In-First-Out) ordering for strict consistency.
-abstract class SyncQueue {
-  // TODO: Define methods (enqueue, pending, markDone)
-}

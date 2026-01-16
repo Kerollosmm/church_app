@@ -3,6 +3,4 @@
 /// Purpose:
 /// - Categorizes errors to determine retry strategies (transient vs permanent).
 /// - Serializable for storage in the sync queue history.
-class SyncFailure {
-  // TODO: Add properties (code, message, isTransient)
-}
+

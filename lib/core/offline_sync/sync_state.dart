@@ -3,6 +3,3 @@
 /// Purpose:
 /// - Provides explicit visibility into the data lifecycle (Local -> Cloud).
 /// - Maps technical states to user-friendly messages.
-enum SyncState {
-  // TODO: Add cases (savedToDevice, syncing, syncedToCloud, failed, conflict)
-}
