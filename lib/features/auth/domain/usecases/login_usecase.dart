@@ -1,9 +1,2 @@
-// login_usecase.dart
-//
 // PURPOSE:
-// Encapsulates the business logic for logging in.
-// Calls AuthRepository.
-
-class LoginUseCase {
-  // final AuthRepository repository;
-}
+// Use Case encapsulating the Login logic (calling Repository to authenticate).

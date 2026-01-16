@@ -1,12 +1,2 @@
-// auth_event.dart
-part of 'auth_bloc.dart';
-
-abstract class AuthEvent {}
-
-class AppStarted extends AuthEvent {}
-class LoginRequested extends AuthEvent {
-  final String email;
-  final String password;
-  LoginRequested(this.email, this.password);
-}
-class LogoutRequested extends AuthEvent {}
+// PURPOSE:
+// Defines events for AuthBloc (AppStarted, LoginRequested, LogoutRequested).
