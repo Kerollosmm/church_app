@@ -51,4 +51,5 @@ PROJECT_SPECIFICATIONS.md
 PROJECT_STRUCTURE.md
 Gemini.md
 lib/features/notifications/domain/entities/admin_alert.dart
+docs/
 
