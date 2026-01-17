@@ -1,15 +1,7 @@
-<<<<<<< HEAD
 /// Route guard to enforce Role-Based Access Control (RBAC).
 ///
 /// Responsibilities:
-/// - Intercept navigation to admin-only routes.
+/// - Intercept navigation to restricted routes.
 /// - Verify user role (Admin, Servant, etc.).
-/// - Redirect unauthorized users.
-=======
-/// Route guard for role-based access control.
-///
-/// Responsibilities:
-/// - Check if current user has required role.
-/// - Redirect to appropriate page if unauthorized.
+/// - Redirect unauthorized users to appropriate page.
 /// - Used by admin routes to restrict access.
->>>>>>> structure-fix-plan
