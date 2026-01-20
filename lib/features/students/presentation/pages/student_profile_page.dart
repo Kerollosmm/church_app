@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import '../../domain/entities/student.dart';
 import '../widgets/attendance_summary_card.dart';
+import 'student_form_page.dart';
+import 'student_attendance_history_page.dart';
 
 class StudentProfilePage extends StatelessWidget {
   final Student student;
@@ -22,7 +24,12 @@ class StudentProfilePage extends StatelessWidget {
             IconButton(
               icon: const Icon(Icons.edit),
               onPressed: () {
-                // Navigate to edit page
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => StudentFormPage(student: student), // Edit Mode
+                  ),
+                );
               },
             ),
         ],
@@ -34,7 +41,17 @@ class StudentProfilePage extends StatelessWidget {
             _buildHeader(context),
             const SizedBox(height: 24),
             // TODO: Fetch real attendance stats
-            const AttendanceSummaryCard(presentCount: 0, absentCount: 0),
+            InkWell(
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => StudentAttendanceHistoryPage(studentId: student.id),
+                  ),
+                );
+              },
+              child: const AttendanceSummaryCard(presentCount: 0, absentCount: 0),
+            ),
             const SizedBox(height: 24),
             _buildInfoCard(context),
             const SizedBox(height: 24),
