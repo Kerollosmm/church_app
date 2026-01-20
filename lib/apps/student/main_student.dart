@@ -1,11 +1,22 @@
-/// Main entry point for the Student Application.
-///
-/// Responsibilities:
-/// - Initialize BootstrapStudent.
-/// - Setup Service Locator for Student features.
-/// - Run the Student App.
+import 'package:flutter/material.dart';
+import '../../features/home/presentation/pages/student_dashboard_page.dart';
+
 void main() {
-  // TODO: Initialize Flutter Binding
-  // TODO: Setup DI for Student
-  // TODO: RunApp(StudentApp)
+  runApp(const StudentApp());
+}
+
+class StudentApp extends StatelessWidget {
+  const StudentApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'CSMS Student',
+      theme: ThemeData(
+        primarySwatch: Colors.green, // Differentiate theme
+        useMaterial3: true,
+      ),
+      home: const StudentDashboardPage(),
+    );
+  }
 }

@@ -1,16 +1,22 @@
-/// Entry point for the Admin Web Portal.
-///
-/// Responsibilities:
-/// - Initialize the admin-specific bootstrap process.
-/// - Call bootstrapAdmin() for DI and real-time listeners.
-/// - Run the AdminApp widget.
-///
-/// Separation from main_servant.dart enables:
-/// - Different routing (admin-specific screens).
-/// - Different DI configurations (real-time streaming for web).
-/// - Admin-only features not loaded in mobile app.
-/// Entry point for the Admin Web Portal.
-///
-/// Responsibilities:
-/// - Initialize the admin-specific bootstrap process.
-/// - Run the AdminApp widget.
+import 'package:flutter/material.dart';
+import '../../features/home/presentation/pages/admin_dashboard_page.dart';
+
+void main() {
+  runApp(const AdminApp());
+}
+
+class AdminApp extends StatelessWidget {
+  const AdminApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'CSMS Admin',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+        useMaterial3: true,
+      ),
+      home: const AdminDashboardPage(),
+    );
+  }
+}
