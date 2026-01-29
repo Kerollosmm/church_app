@@ -47,7 +47,7 @@ class ServantGroupCubit extends Cubit<ServantGroupState> {
     try {
       for (var entry in attendance.entries) {
         final record = AttendanceModel(
-          id: const Uuid().v4(),
+          id: DateTime.now().millisecondsSinceEpoch.toString() + entry.key,
           studentId: entry.key,
           servantId: servantId,
           date: date,

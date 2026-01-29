@@ -25,19 +25,23 @@ void main() async {
       debugPrint("Firebase init failed: $e");
   }
 
-  await Hive.initFlutter();
+  try {
+    await Hive.initFlutter();
 
-  // Register Adapters
-  Hive.registerAdapter(AdminModelAdapter());
-  Hive.registerAdapter(ServantModelAdapter());
-  Hive.registerAdapter(StudentModelAdapter());
-  Hive.registerAdapter(AttendanceModelAdapter());
+    // Register Adapters
+    Hive.registerAdapter(AdminModelAdapter());
+    Hive.registerAdapter(ServantModelAdapter());
+    Hive.registerAdapter(StudentModelAdapter());
+    Hive.registerAdapter(AttendanceModelAdapter());
 
-  // Open Boxes
-  await Hive.openBox<AdminModel>('admins');
-  await Hive.openBox<ServantModel>('servants');
-  await Hive.openBox<StudentModel>('students');
-  await Hive.openBox<AttendanceModel>('attendance');
+    // Open Boxes
+    await Hive.openBox<AdminModel>('admins');
+    await Hive.openBox<ServantModel>('servants');
+    await Hive.openBox<StudentModel>('students');
+    await Hive.openBox<AttendanceModel>('attendance');
+  } catch (e) {
+    debugPrint("Hive init failed: $e");
+  }
 
   runApp(const MyApp());
 }

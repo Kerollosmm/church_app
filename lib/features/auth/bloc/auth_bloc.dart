@@ -16,10 +16,14 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
   }
 
   Future<void> _onCheckRequested(AuthCheckRequested event, Emitter<AuthState> emit) async {
-    final user = _firebaseAuth.currentUser;
-    if (user != null) {
-      await _loadUser(user.uid, emit);
-    } else {
+    try {
+      final user = _firebaseAuth.currentUser;
+      if (user != null) {
+        await _loadUser(user.uid, emit);
+      } else {
+        emit(const AuthState.unauthenticated());
+      }
+    } catch (e) {
       emit(const AuthState.unauthenticated());
     }
   }
